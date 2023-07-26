@@ -33,4 +33,24 @@ p {
 .container {
     background-color: #8d99ae;
     color: #edf2f4;
+    padding: 2em;
+    border-radius: 2em;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.submit {
+    border: none;
+    background-color: #ef233c;
+    padding: 0.5em;
+    border-radius: 1em;
+    margin-top: 1em;
+    transition: 0.4s ease;
+}
+
+.submit:hover {
+    background-color: #d80032;
+    color: #edf2f4;
+    transform: scale(1.1);
+    transition: 0.4s ease;
 }
