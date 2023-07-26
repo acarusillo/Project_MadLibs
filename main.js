@@ -23,11 +23,11 @@ form.addEventListener("submit", function(event){
 
     madLibDisplay.innerHTML = story
     .replace(`${adj1}`, adj1.value)
-    .replace(`${adj1}`, adj1.value)
-    .replace(`${adj1}`, adj1.value)
-    .replace(`${adj1}`, adj1.value)
-    .replace(`${adj1}`, adj1.value)
-    .replace(`${adj1}`, adj1.value)
-    .replace(`${adj1}`, adj1.value)
-})
+    .replace(`${noun1}`, noun11.value)
+    .replace(`${adj2}`, adj2.value)
+    .replace(`${clothing}`, clothing.value)
+    .replace(`${bodyPart}`, bodyPart.value)
+    .replace(`${verb1}`, verb1.value)
+    .replace(`${food}`, food.value);
+});
 
