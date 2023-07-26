@@ -6,6 +6,28 @@ const bodyPart = document.getElementById("bodyPart");
 const verb1 = document.getElementById("verb1");
 const food = document.getElementById("food");
 
-arr = [adj1, adj2, noun1, verb1, clothing, bodyPart, food];
+// Variable to display the mad lib
 
-console.table(arr);
+const madLibDisplay = document.querySelector("mad-lib");
+
+//Variable for the form
+
+const form = document.querySelector("form");
+
+//Variable for the mad lib story
+
+const story = "My friend and I started a secret club! We meet every day by the "
+
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+
+    madLibDisplay.innerHTML = story
+    .replace(`${adj1}`, adj1.value)
+    .replace(`${adj1}`, adj1.value)
+    .replace(`${adj1}`, adj1.value)
+    .replace(`${adj1}`, adj1.value)
+    .replace(`${adj1}`, adj1.value)
+    .replace(`${adj1}`, adj1.value)
+    .replace(`${adj1}`, adj1.value)
+})
+
