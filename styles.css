@@ -54,3 +54,23 @@ p {
     transform: scale(1.1);
     transition: 0.4s ease;
 }
+
+form {
+    margin: 2em auto;
+    width: 20em;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    color: #2b2d42;
+    font-size: large;
+    margin-bottom: 1.5em;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #2b2d42;
+    background-color: #edf2f4;
+    height: 2em;
+}
