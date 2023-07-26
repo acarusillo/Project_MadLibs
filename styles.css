@@ -74,3 +74,13 @@ input {
     background-color: #edf2f4;
     height: 2em;
 }
+
+.mad-lib {
+    width: 20em;
+    margin: 2em auto;
+
+}
+
+b {
+    color: #2b2d42;
+}
