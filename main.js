@@ -22,17 +22,8 @@ const story = `My friend and I started a secret club! We meet every day by the <
 
 form.addEventListener("submit", function(event){
     event.preventDefault();
-    madLibDisplay.innerHTML = story
-      .replace(`${adj1}`, adj1.value);
-      .replace(`${noun1}`, noun1.value);
-      .replace(`${adj2}`, adj2.value);
-      .replace(`${clothing}`, clothing.value);
-      .replace(`${bodyPart}`, bodyPart.value);
-      .replace(`${verb1}`, verb1.value);
-      .replace(`${food}`, food.value);
 
-});
-    if {adj1.value == ""} {
+    if (adj1.value == "") {
         alert(`${adj1.name} must be filled out!`);
         adj1.focus();
     } else if (noun1.value == '') {

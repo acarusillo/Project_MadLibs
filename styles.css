@@ -62,6 +62,7 @@ form {
 
 .form-group {
     display: flex;
+    outline: none;
     justify-content: space-between;
     color: #2b2d42;
     font-size: large;
