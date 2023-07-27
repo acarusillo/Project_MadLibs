@@ -22,7 +22,30 @@ const story = `My friend and I started a secret club! We meet every day by the <
 
 form.addEventListener("submit", function(event){
     event.preventDefault();
-
+    
+    if {adj1.value == ""} {
+        alert(`${adj1.name} must be filled out!`);
+        adj1.focus();
+    } else if (noun1.value == '') {
+        alert(`${noun1.name} must be filled out!`);    
+        noun1.focus();
+    } else if (adj2.value == '') {
+        alert(`${adj2.name} must be filled out!`);    
+        adj2.focus();
+    } else if (clothing.value == '') {
+        alert(`${clothing.name} must be filled out!`);    
+        clothing.focus();
+    } else if (bodyPart.value == '') {
+        alert(`${bodyPart.name} must be filled out!`);    
+        bodyPart.focus();
+    } else if (verb1.value == '') {
+        alert(`${verb1.name} must be filled out!`);    
+        verb1.focus();
+    } else if (food.value == '') {
+        alert(`${food.name} must be filled out!`);    
+        food.focus();
+    }
+    
 });
 
 function madLibStoryDisplay(){
